@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+@import "rsuite/dist/rsuite.css";
+
+.user table {
+  width: 100%;
+}
+.user .table img{
+  margin-right: 10px;
+}
+
+.user button {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 152px;
+  height: 38px;
+  font-weight: 400;
+  /* font-size: 12px; */
+  background-color: #1877f2;
+  color: white;
+}
+
+.user th {
+  width: 80px;
+  margin: 10px 5px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  border: 0.5px solid maroon !important;
+}
+.user .text-center{
+  background-color: maroon;
+}
+.user td {
+  border: 0.5px solid maroon !important;
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.project button {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 152px;
+  height: 38px;
+  font-weight: 400;
+  /* font-size: 12px; */
+  background-color: #1877f2;
+  color: white;
+}
+.project .table img{
+  margin-right: 10px;
+}
+
+.project table {
+  width: 100%;
+}
+
+.project th {
+  width: 80px;
+  margin: 10px 5px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  border: 0.5px solid maroon !important;
+}
+.project .text-center{
+  background-color: maroon;
+}
+
+.project td {
+  border: 0.5px solid maroon !important;
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.milestone button {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 152px;
+  height: 38px;
+  font-weight: 400;
+  /* font-size: 12px; */
+  background-color: #1877f2;
+  color: white;
+}
+
+.milestone .react_table img{
+  margin-right: 10px;
+
+}
+.milestone table {
+  width: 100%;
+}
+.milestone .rdt_TableHeadRow{
+  background-color: #000;
+  color: white;
+
+}
+
+.milestone th {
+  width: 80px;
+  margin: 10px 5px;
+  text-align: center;
+  border: 0.5px solid black !important;
+}
+
+.milestone td {
+  border: 0.5px solid black !important;
+  margin-top: 5px;
+  text-align: center;
+}
+.milestone .dateColor{
+  color: red !important;
+}
+
+.form_childs div.text-red {
+  position: absolute;
+  /* bottom: 5px; */
+  bottom: 20px;
+  font-size: 12px;
+}
+.text-red {
+  color: red;
+  font-size: 13px;
+}
+
+.table-responsive2{
+  border-radius: 1px solid black;
+}
+
+.react_table .rdt_Table {
+  margin-top: 20px !important;
+  border: 1px solid #e1e1e1 !important;
+  border-radius: var(--border-radius) !important;
+}
+
+.react_table .rdt_TableHead {
+  background: var(--primary-dark-clr) !important;
+}
+
+.react_table .rdt_TableHead .jWpMhA {
+  background: var(--primary-dark-clr) !important;
+}
+
+.react_table .rdt_TableCol {
+  font-weight: var(--fw-semi) !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  color: var(--white-clr) !important;
+  padding: 15px !important;
+}
+
+.react_table .rdt_TableRow {
+  border-bottom: none !important;
+  border-top: 1px solid #ededed !important;
+  /* margin: 0 10px; */
+}
+
+.react_table .eIjseQ:hover,
+.react_table .eIjseQ:focus {
+  opacity: 1 !important;
+}
+
+.react_table .dpxigv {
+  /* padding: 0 !important; */
+  padding: 0 15px !important;
+}
+
+ .react_table2 .rdt_Table {
+  /* margin-top: 20px !important; */
+  border: 1px solid #e1e1e1 !important;
+  /* border-radius: var(--border-radius) !important; */
+}
+
+.react_table2 .rdt_TableRow {
+  width:1000px !important;
+  border-bottom: none !important;
+  border-top: 1px solid #ededed !important;
+  /* margin: 0 10px; */
+}
+
+.react_table2 .eIjseQ:hover,
+.react_table2 .eIjseQ:focus {
+  opacity: 1 !important;
+}
+
+.react_table2 .dpxigv {
+  /* padding: 0 !important; */
+  padding: 0 15px !important;
+}
+
+.popup-overlay {
+  background: #000;
+  opacity: .2;
+}
+.popup-content .table-responsive2 .rdt_TableHeadRow{
+  background-color: darkcyan;
+  color: white;
+}
+.popup-content .table-responsive2 .rdt_Table{
+  border: none !important;
+}
+/* .popup-content {
+  position: absolute;
+  z-index: 999;
+  pointer-events: auto;
+  left: 183.469px;
+  top:350px !important;
+} */
+.rs-picker-toggle.rs-btn.rs-btn-default{
+  z-index: 0;
+}
+.collapse.navbar-collapse{
+  margin: 0 20px !important;
+}
+.milestone .search{
+  float: right;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 252px;
+  height: 38px;
+  padding: 0.375rem 0.75rem;
+}
+.project .search{
+  float: right;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 252px;
+  height: 38px;
+  padding: 0.375rem 0.75rem;
+}
+.user .search{
+  float: right;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 252px;
+  height: 38px;
+  padding: 0.375rem 0.75rem;
+}
+
+.loginbox {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 440px;
+  height: 400px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.loginbox h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #252525;
+}
+
+.loginbox h4 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #252525;
+  padding-bottom: 10px;
+}
+
+.loginbox label {
+  /* font-weight: 400;
+  font-size: 12px; */
+  line-height: 18px;
+  color: #6a6a6a;
+  padding-bottom: 5px;
+}
+
+.loginbox input {
+  /* font-weight: 400;
+  font-size: 12px; */
+  line-height: 18px;
+  color: #000000;
+}
+
+.loginbox button {
+  border: none;
+  border-radius: 5px;
+  float: right;
+  width: 152px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: #1877f2;
+  color: white;
+  margin-bottom: 30px;
+  /* margin-top: 30px; */
+}
+.navbar button {
+  border: none;
+  border-radius: 5px;
+  float: right;
+  width: 152px;
+  height: 38px;
+  font-weight: 400;
+  /* font-size: 12px; */
+  background-color: #1877f2;
+  color: white;
+  /* margin-bottom: 30px; */
+}
+.archive .rdt_TableHeadRow{
+  background-color: #000;
+  color: white;
+
+}
+.user .rdt_TableHeadRow{
+  background-color: darkcyan;
+  color: white;
+
+}
+.project .rdt_TableHeadRow{
+  background-color: darkcyan;
+  color: white;
+
+}
